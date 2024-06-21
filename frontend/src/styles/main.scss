@@ -15,10 +15,11 @@ body {
 
     p {
         margin: 0;
+        font-family: $secondary-font;
     }
 }
 
-.sub-headings{
+.sub-headings {
     font-size: 32px;
     font-family: $primary-font;
     font-weight: 900;
@@ -69,33 +70,33 @@ body {
 }
 
 /* header Section styles - Start */
-.hero-title{
-font-family: $primary-font;
-color: $text-color;
-font-weight: 900;
-font-size: 48px;
+.hero-title {
+    font-family: $primary-font;
+    color: $text-color;
+    font-weight: 900;
+    font-size: 48px;
 }
 
-.header-section{
+.header-section {
     background-image: url('../../public/images/hero-img.png');
     background-size: cover;
-    background-position: 0 50%;
+    background-position: 0 center;
     background-repeat: no-repeat;
 }
 
-.hero-subheading{
+.hero-subheading {
     font-size: 20px;
     font-weight: 500;
     color: $text-color;
     font-family: $secondary-font;
 }
 
-.hero{
+.hero {
     padding: 72px;
     min-height: 762px;
 }
 
-.hero-btn{
+.hero-btn {
     font-weight: 600;
     color: white;
     box-shadow: 0px 4px 4.3px rgba(0, 0, 0, 0.31);
@@ -108,27 +109,27 @@ font-size: 48px;
     width: 150px;
     margin-top: 32px;
 
-    &:hover{
+    &:hover {
         background-color: $secondary-color;
     }
 }
 
-.benifits-section{
+.benifits-section {
     padding-left: 72px;
     padding-right: 72px;
 }
 
-.benifits-p{
+.benifits-p {
     font-family: $secondary-font;
 }
 
 /* Product Section styles - Start */
 .product-section {
-    padding: 72px;
+    padding: 72px 20px;
     text-align: left;
 }
 
-.sub-heading-products{
+.sub-heading-products {
     color: $text-color;
     margin-bottom: 72px;
 }
@@ -192,6 +193,36 @@ font-size: 48px;
             background-color: $secondary-color;
             color: white;
             border: none;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .product-section {
+        padding: 72px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sub-headings {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 576px) {
+    .product-card {
+        .card-title {
+            font-size: 1em;
+        }
+
+        .product-discrption {
+            font-size: 13px;
+        }
+
+        .productPrice {
+            font-size: 20px !important;
+            justify-content: flex-start !important;
+            margin-top: 8px;
         }
     }
 }

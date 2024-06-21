@@ -18,10 +18,10 @@ function ProductCard({ title, description, image, price }) {
           <Card.Text className="product-discrption">
           {description}
           </Card.Text>
-          <Row className="mt-3">
-            <Col>
+          <Row className="mt-3 mb-3">
+            <Col xs={10} md={6}>
         
-              <InputGroup className="mb-3 product-qty">
+              <InputGroup className="mb-md-0 mb-sm-2 product-qty">
                 <Button variant="outline-secondary" className="px-2">
                   <i class="bi bi-dash"></i>
                 </Button>
@@ -31,7 +31,7 @@ function ProductCard({ title, description, image, price }) {
                 </Button>
               </InputGroup>
             </Col>
-            <Col className="productPrice d-flex justify-content-end">$ 
+            <Col className="productPrice d-flex justify-content-md-end" xs={12} md={6}>$ 
               {price}
             </Col>
           </Row>
