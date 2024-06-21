@@ -4,7 +4,7 @@ import {Image, Row, Col } from "react-bootstrap";
 function Benifits() {
   return (
     <Row className="benifits-section align-items-center">
-      <Col xs={12} md={6} className="justify-content-start text-start">
+      <Col xs={12} md={6} className="justify-content-start text-start benifts-sec-content">
       <h2 className="sub-headings  sub-heading-products">
       Why Choose Coffee Zero?
         </h2>

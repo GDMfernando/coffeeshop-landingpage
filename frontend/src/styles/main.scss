@@ -35,10 +35,10 @@ body {
     }
 }
 
-
-
-.container-fluid {
-    padding: 0 46px;
+.navbar-section{
+    .container-fluid {
+        padding: 0 46px;
+    }
 }
 
 /* Footer styles - Start */
@@ -80,7 +80,7 @@ body {
 .header-section {
     background-image: url('../../public/images/hero-img.png');
     background-size: cover;
-    background-position: 0 center;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -117,6 +117,7 @@ body {
 .benifits-section {
     padding-left: 72px;
     padding-right: 72px;
+    padding-bottom: 72px;
 }
 
 .benifits-p {
@@ -207,6 +208,28 @@ body {
     .sub-headings {
         font-size: 24px;
     }
+
+    .benifits-p{
+        font-size: 14px;
+    }
+
+    .sub-heading-products{
+        margin-bottom: 32px;
+    }
+
+    .benifits-section {
+       padding: 46px;
+    }
+
+    .benifts-sec-content{
+        margin-bottom: 32px;
+    }
+
+    .navbar-section{
+        .container-fluid {
+            padding: 0 20px;
+        }
+    }
 }
 
 @media (max-width: 576px) {
@@ -224,5 +247,17 @@ body {
             justify-content: flex-start !important;
             margin-top: 8px;
         }
+    }
+
+    .hero {
+        padding: 72px 46px;
+    }
+
+    .hero-title{
+        font-size: 40px;
+    }
+
+    .hero-subheading{
+        font-size: 20px;
     }
 }
