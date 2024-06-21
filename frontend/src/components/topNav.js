@@ -41,7 +41,7 @@ function Topnav() {
                   ></Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body>
-                  <Nav className="justify-content-end flex-grow-1 pe-3">
+                  <Nav className="justify-content-end flex-grow-1 pe-3 topBar-nav">
                     <Nav.Link href="#action1">Home</Nav.Link>
                     <Nav.Link href="#action2">About</Nav.Link>
                     <Nav.Link href="#action2">Products</Nav.Link>

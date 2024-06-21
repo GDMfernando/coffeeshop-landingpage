@@ -2,23 +2,179 @@
 @import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 @import '~bootstrap-icons/font/bootstrap-icons.css';
 
-$primary-font:"Inria Serif", serif;
+$primary-font: "Inria Serif", serif;
 $secondary-font: "Raleway", sans-serif;
+$primary-color: #557936;
+$secondary-color: #3E4D30;
+$text-color: #2D2D2D;
 
 body {
     width: 100vw;
     box-sizing: border-box;
     height: 100%;
+
+    p {
+        margin: 0;
+    }
 }
 
+.sub-headings{
+    font-size: 32px;
+    font-family: $primary-font;
+    font-weight: 900;
+}
 
 /* Topbar styles - Start */
-.nav-link{
-    font-family: $secondary-font;
-    font-weight: 600;
-    font-size: 14px;
+.topBar-nav {
+    .nav-link {
+        font-family: $secondary-font;
+        font-weight: 600;
+        font-size: 14px;
+        color: $text-color;
+    }
 }
 
-.container-fluid{
+
+.container-fluid {
     padding: 0 46px;
+}
+
+/* Footer styles - Start */
+
+.footer-card {
+    background-color: $secondary-color;
+    padding: 32px 0px;
+    border-radius: 0;
+    font-family: $secondary-font;
+
+    .card-header {
+        border: none;
+    }
+
+    .card-footer {
+        border: none;
+        color: #CFCFCF;
+        font-size: 14px;
+    }
+
+    .nav-link {
+        color: #CFCFCF;
+
+        &:hover {
+            color: #ffffff;
+        }
+    }
+
+}
+
+/* header Section styles - Start */
+.hero-title{
+font-family: $primary-font;
+color: $text-color;
+font-weight: 900;
+font-size: 48px;
+}
+
+.hero-subheading{
+    font-size: 20px;
+    font-weight: 500;
+    color: $text-color;
+    font-family: $secondary-font;
+}
+
+.hero-btn{
+    font-weight: 600;
+    color: white;
+    box-shadow: 0px 4px 4.3px rgba(0, 0, 0, 0.31);
+    border-radius: 8px;
+    padding: 6px 12px;
+    font-size: 16px;
+    font-family: $secondary-font;
+    background-color: $primary-color;
+    border: none;
+    width: 150px;
+    margin-top: 32px;
+
+    &:hover{
+        background-color: $secondary-color;
+    }
+}
+
+.benifits-section{
+    padding-left: 72px;
+    padding-right: 72px;
+}
+
+/* Product Section styles - Start */
+.product-section {
+    padding: 72px;
+    text-align: left;
+}
+
+.sub-heading-products{
+    color: $text-color;
+    margin-bottom: 72px;
+}
+
+/* Product cards styles - Start */
+.product-card {
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 4px 17.4px 0px rgba(0, 0, 0, 0.05);
+    font-family: $secondary-font;
+
+    .card-body {
+        text-align: left;
+
+        .card-title {
+            font-weight: 800;
+            color: $text-color;
+            min-height: 48px;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .productPrice {
+            font-weight: 600;
+            font-size: 24px;
+        }
+
+        .product-discrption {
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-size: 14px;
+        }
+
+        .product-qty {
+            border-radius: 8px;
+            background-color: #F4F1EB;
+            color: $text-color;
+
+            .form-control {
+                background-color: #F4F1EB;
+                border: none;
+            }
+
+            .btn-outline-secondary {
+                border: none;
+            }
+        }
+    }
+
+    .productCard-btn {
+        border-color: $primary-color;
+        color: $primary-color;
+
+        &:hover {
+            background-color: $secondary-color;
+            color: white;
+            border: none;
+        }
+    }
 }
