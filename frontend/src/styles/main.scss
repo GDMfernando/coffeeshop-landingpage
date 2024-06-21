@@ -35,6 +35,7 @@ body {
 }
 
 
+
 .container-fluid {
     padding: 0 46px;
 }
@@ -75,11 +76,23 @@ font-weight: 900;
 font-size: 48px;
 }
 
+.header-section{
+    background-image: url('../../public/images/hero-img.png');
+    background-size: cover;
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+}
+
 .hero-subheading{
     font-size: 20px;
     font-weight: 500;
     color: $text-color;
     font-family: $secondary-font;
+}
+
+.hero{
+    padding: 72px;
+    min-height: 762px;
 }
 
 .hero-btn{
@@ -103,6 +116,10 @@ font-size: 48px;
 .benifits-section{
     padding-left: 72px;
     padding-right: 72px;
+}
+
+.benifits-p{
+    font-family: $secondary-font;
 }
 
 /* Product Section styles - Start */

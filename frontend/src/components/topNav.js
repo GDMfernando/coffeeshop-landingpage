@@ -16,7 +16,7 @@ function Topnav() {
           <Navbar
             key={expand}
             expand={expand}
-            className="bg-body-tertiary mb-3"
+            className=" mb-3 navbar-section"
           >
             <Container fluid>
               <Navbar.Brand href="#">

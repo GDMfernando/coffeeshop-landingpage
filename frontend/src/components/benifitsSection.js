@@ -8,7 +8,7 @@ function Benifits() {
       <h2 className="sub-headings  sub-heading-products">
       Why Choose Coffee Zero?
         </h2>
-        <p>Coffee Zero is an exceptional choice for anyone looking to integrate healthier habits into their daily routine. Our coffee is low in calories and rich in antioxidants, making it ideal for weight loss and promoting overall wellness. We use only premium ingredients to ensure a delicious and satisfying coffee experience. Join the Coffee Zero movement and enjoy a guilt-free coffee experience.</p>
+        <p className="benifits-p">Coffee Zero is an exceptional choice for anyone looking to integrate healthier habits into their daily routine. Our coffee is low in calories and rich in antioxidants, making it ideal for weight loss and promoting overall wellness. We use only premium ingredients to ensure a delicious and satisfying coffee experience. Join the Coffee Zero movement and enjoy a guilt-free coffee experience.</p>
       </Col>
       <Col><Image src="images/img-2.png"></Image></Col>
     </Row>
